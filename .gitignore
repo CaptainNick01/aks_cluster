@@ -1,0 +1,18 @@
+.dockerignore
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+.vscode/
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+crash.log
+*.tfvars
+*.tfstate.backup
+*.tfstate
+*.tfstate.*
+*_override.tf
+.env
+.package-lock.json

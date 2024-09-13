@@ -1,0 +1,22 @@
+# Azure Authentication
+AZURE_SUBSCRIPTION_ID=your_subscription_id
+AZURE_TENANT_ID=your_tenant_id
+AZURE_CLIENT_ID=your_client_id
+AZURE_CLIENT_SECRET
+
+# Resource Group and Location
+RESOURCE_GROUP_NAME
+LOCATION=your_azure_location
+
+# Kubernetes Cluster Details
+AKS_CLUSTER_NAME
+
+# Azure Key Vault
+KEY_VAULT_NAME
+
+# Key Vault Secrets (retrieved dynamically in GitHub Actions or scripts)
+AKS_SP_CLIENT_ID
+AKS_SP_CLIENT_SECRET
+
+# Optional: GitHub Actions or other services
+GITHUB_ACTIONS_ACCESS_TOKEN

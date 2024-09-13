@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aks-api-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: aks-api
+  template:
+    metadata:
+      labels:
+        app: aks-api
+    spec:
+      containers:
+      - name: aks-api
+        image: aks-api-image:latest
+        ports:
+        - containerPort: 8080
